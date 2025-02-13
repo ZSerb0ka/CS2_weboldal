@@ -1,3 +1,115 @@
 h1{
-    color: #5a5a5a;
+    color: rgb(220 138 39);
+}
+body{
+    background-color:  rgb(217 217 217);
+}
+
+.cs2:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(220 138 39);
+}
+
+.cs2:focus{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(220 138 39);
+}
+
+.cs2:active{
+    text-decoration: none;
+    background-color: rgb(220 138 39);
+}
+
+.cs2link{
+    text-decoration: none; 
+    color: white;
+}
+
+a:active{
+    text-decoration: none;
+    color: black;
+}
+
+.cs2{
+    background-color: rgb(220 138 39);
+    text-decoration: none;
+    color: white;
+}
+
+.steamlink:active{
+    color: white;
+    text-decoration: none;
+}
+
+.steamlink:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.steamlink:focus{
+    color: white;
+    text-decoration: none;
+}
+
+.steamlink{
+    color: white;
+    text-decoration: none;
+}
+
+.steam{
+    background-color: rgb(78, 134, 174);
+    text-decoration: none;
+    border-color: rgb(78, 134, 174);
+}
+
+.steam:focus{
+    background-color: rgb(78, 134, 174);
+    text-decoration: none;
+    color: white;
+    border-color: rgb(78, 134, 174);
+}
+
+.steam:active{
+    background-color: rgb(78, 134, 174);
+    text-decoration: none;
+    color: white;
+    border-color: rgb(78, 134, 174);
+}
+
+.steam:hover{
+    background-color: rgb(78, 134, 174);
+    color: white;
+    border-color: rgb(78, 134, 174);
+}
+
+
+
+
+    
+
+
+.egyes{
+    padding: 50px;
+}
+
+
+.hero {
+    font-family: Arial, sans-serif;
+    font-size: 3rem;
+    color: white;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 2s ease-out forwards;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0.4;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1.5;
+        transform: translateY(0);
+    }
 }
