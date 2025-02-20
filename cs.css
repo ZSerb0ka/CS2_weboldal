@@ -2,7 +2,9 @@ h1{
     color: rgb(220 138 39);
 }
 body{
-    background-color:  rgb(217 217 217);
+    background-image: url(img/kek.png);
+    background-color:  rgb(38 38 38);
+    background-size: 1930px;
 }
 
 .cs2:hover{
@@ -87,13 +89,36 @@ a:active{
 
 
 
-    
-
-
 .egyes{
-    padding: 50px;
+    color: white;
+    margin-left: 480px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: gray;
+    opacity: 0.85;
+    padding-bottom: 10px;
+    max-width: 50%;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
 }
-
+.kettes{
+    color: white;
+    margin-left: 480px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: gray;
+    opacity: 0.85;
+    padding-bottom: 10px;
+    max-width: 50%;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
 
 .hero {
     font-family: Arial, sans-serif;
@@ -111,5 +136,70 @@ a:active{
     to {
         opacity: 1.5;
         transform: translateY(0);
+    }
+}
+.skibidi{
+    color: white;
+    margin-left: 480px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: gray;
+    opacity: 0.85;
+    padding-bottom: 10px;
+    max-width: 50%;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+
+.skibidi_lista{
+    list-style-type: none;
+}
+
+.kettes_lista{
+    list-style-type: none;
+}
+
+#narancs{
+    background-image: url(img/nrancshatterkep.png);
+    width: 1903px;
+    height: 900px;
+}
+
+
+.slide-in-left {
+    position: relative;
+    animation: slideIn 1s ease-out forwards;
+    margin-top: 200px;
+}
+
+.slide-in-right{
+    position: relative;
+    animation: slideInright 1s ease-out forwards;
+    margin-top: 200px;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(50);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInright {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(50); 
+        opacity: 1;
     }
 }
